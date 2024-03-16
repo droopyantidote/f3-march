@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.5; /* Increase line height */
+}
+
+.container {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.heading {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.count-message {
+    margin-bottom: 30px; /* Increase gap between lines */
+}
+
+.count-label {
+    text-decoration: underline; /* Underline only the label */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 30px; /* Increase gap between lines */
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px; /* Add margin to separate buttons from message */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.decrement {
+    background-color: white;
+    color: black;
+}
+
+.increment {
+    background-color: white;
+    color: black;
+}
+
+.clear {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
