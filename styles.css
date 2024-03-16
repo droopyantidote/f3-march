@@ -3,7 +3,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     padding: 20px;
-    line-height: 1.5; /* Increase line height */
+    line-height: 1.5; 
 }
 
 .container {
@@ -17,22 +17,26 @@ body {
 }
 
 .count-message {
-    margin-bottom: 30px; /* Increase gap between lines */
+    margin-bottom: 5px; 
+    position: relative;
 }
 
-.count-label {
-    text-decoration: underline; /* Underline only the label */
+.horizontal-line {
+    width: 180px;
+    border: 1px solid white;
+    margin-top: 5px;
 }
 
 .error-message {
     color: red;
-    margin-bottom: 30px; /* Increase gap between lines */
+    margin-bottom: 10px;
+    margin-top: 30px; 
 }
 
 .buttons {
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px; /* Add margin to separate buttons from message */
+    margin-top: 40px; 
 }
 
 button {
